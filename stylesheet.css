@@ -9,6 +9,7 @@ h1 {
 text-align: center;
 }
 
-#neko {
+#mainvisual {
 size: 500px;
-color: gray;
+color: black;
+background-color: gray;
