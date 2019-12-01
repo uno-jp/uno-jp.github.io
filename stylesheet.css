@@ -1,15 +1,53 @@
 @charset "UTF-8";
 
 body {
-box-align: center;
-width: 50%;
+    width: 50%;
+    max-width: 768px;
 }
 
 h1 {
-text-align: center;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    color: gray;
 }
 
 #mainvisual {
 size: 500px;
 color: black;
 background-color: gray;
+=======
+>>>>>>> origin/master
+@charset "UTF-8";
+
+body {
+    width: 50%;
+    max-width: 768px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: center;
+    color: gray;
+}
+
+<<<<<<< master
+#mainvisual {
+size: 500px;
+color: black;
+background-color: gray;
+=======
+>>>>>>> origin/master
