@@ -35,5 +35,5 @@ p {
     left: 50%;      /*左端を中央に*/
     width: 600px;   /*横幅*/
     height: 400px;  /*縦幅*/
-    background-color:#00ff00;
+    background-color: darkgrey;
 }
