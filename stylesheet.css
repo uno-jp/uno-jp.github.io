@@ -27,3 +27,13 @@ p {
 	color: black;
 	background-color: gray;
 }
+
+.centerMiddle{
+    margin: -200px 0 0 -300px;  /*縦横半分をネガティブマージンでずらす*/
+    position: absolute;     /*body要素に対して絶対配置*/
+    top: 50%;       /*上端を中央に*/
+    left: 50%;      /*左端を中央に*/
+    width: 600px;   /*横幅*/
+    height: 400px;  /*縦幅*/
+    background-color:#00ff00;
+}
