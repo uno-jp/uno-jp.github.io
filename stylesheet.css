@@ -1,38 +1,28 @@
 @charset "UTF-8";
 
 body {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    min-width: 600px;
-    min-height: 400px;
-    background-color: darkgrey;
+    margin: 0 15%;
+    padding: 0 10%;
+    width: 50%;
+    min-width: 960px;
+    background-color: #787878;
+    color: #434343;
 }
 
 h1 {
     text-align: center;
+    color: #373C38;
 }
 
 h2 {
     text-align: left;
+    color: #373C38;
 }
 
+h3 {
+    color: gray;
+    color: #373C38;
+}
 p {
     text-align: left;
-    color: gray;
-}
-
-#mainvisual {
-	color: black;
-	background-color: gray;
-}
-
-.centerMiddle{
-    margin: -200px 0 0 -300px;  /*縦横半分をネガティブマージンでずらす*/
-    position: absolute;     /*body要素に対して絶対配置*/
-    top: 50%;       /*上端を中央に*/
-    left: 50%;      /*左端を中央に*/
-    width: 600px;   /*横幅*/
-    height: 400px;  /*縦幅*/
-    background-color: darkgrey;
 }
