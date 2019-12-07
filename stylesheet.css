@@ -1,28 +1,52 @@
 @charset "UTF-8";
 
+
+/* 横幅サイズによらない共通CSS */
 body {
-    margin: 0 15%;
-    padding: 0 10%;
-    width: 50%;
-    min-width: 960px;
     background-color: #787878;
     color: #434343;
 }
 
+h1, h2, h3 {
+    color: #373C38;
+}
+
 h1 {
     text-align: center;
-    color: #373C38;
 }
 
 h2 {
     text-align: left;
-    color: #373C38;
 }
 
-h3 {
-    color: gray;
-    color: #373C38;
-}
 p {
+    font-size: 16px;
     text-align: left;
+}
+
+/* スマホ・タブレット用のCSSはここに書く */
+@media (max-width:559px){
+    .mainbox{
+        margin: 0 3%;
+        padding: 0 2%;
+        width: 90%;
+    }
+}
+
+/* タブレット用のCSSはここに書く */
+@media (min-width:560px) and (max-width:959px){
+    .mainbox{
+        margin: 0 5%;
+        padding: 0 5%;
+        width: 80%;
+    }
+}
+
+/* PC用のCSSはここに書く */
+@media (min-width:960px){
+    .mainbox{
+        margin: 0 10%;
+        padding: 0 10%;
+        width: 60%;
+    }
 }
